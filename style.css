@@ -1,0 +1,51 @@
+body {
+    background-image: url('./images/gladiator-pit.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+img.choice {
+    width: 6.4em;
+    margin: 0.02em;
+    border-radius: 50%;
+}
+
+.selected {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+.play-area {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+.play-area img {
+    margin: 2em;
+    width: 10em;
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.scoreboard {
+    background-image: url('./images/scoreboard-bg.webp');
+    background-size: cover;
+    border-radius: 0.2em;
+    border: 0.05em solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    height: 1.2em;
+    text-align: center;
+    color: yellow;
+    font: bolder 75px 'Courier New';
+}
+
+.result {
+    display: none;
+}
